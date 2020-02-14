@@ -1,0 +1,165 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+      background: url('../images/grey_background.jpg');  
+    
+}
+#name {
+
+    float: left;
+    padding: 35px;
+    background-color: #4aaaa5;
+    color: white;
+    font-weight: bold;    
+    font-size: 25px;
+    margin:auto;
+     
+}
+
+nav {
+
+    float: right; 
+    padding-top: 30px;
+    padding-bottom: 20px;
+    width:40%;
+ 
+}
+nav a {
+
+    padding-right: 10px;
+    padding-left: 10px;
+}
+header {
+    
+     
+    padding:0;
+    background: none;
+    background-color: white;
+}
+.wrapper {
+
+    overflow: auto;  
+    clear: both;
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Georgia', Times, 'Times New Roman',serif;
+    height:108px;
+    background: none;
+}
+#profile {     
+     float: left; 
+     padding-right: 30px;
+     padding-bottom: 30px;
+ }
+
+#about {
+
+    padding: 30px 30px 20px 30px;
+    margin-top: 30px;
+    width: 900px;
+   margin:0 auto;
+   background: none;
+}
+
+#contact {
+
+    padding: 30px 30px 20px 30px;
+    margin-top: 30px;
+    width: 900px;
+    margin:0 auto;
+}
+#contact-header{
+     background-color: #4aaaa5;
+}
+#email {
+
+    margin-top: 20px;
+   
+  }
+  
+#message {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.mytext {
+    background-color: white;
+}
+.mymsg {
+    background-color: white;
+}
+input {
+   
+    margin  : 0;
+    width   : 895px;
+    height: 20px;    
+    
+  }
+
+  textarea {
+  
+     padding : 0 10px;
+     margin  : 0;
+     width   : 880px;
+     height: 200px;
+     background-color: white;
+   }
+   button {
+       text-align:center;        
+       background-color: #4aaaa5;
+   }
+
+   #portfolio {
+
+    padding: 30px 30px 20px 30px;
+    margin-top: 30px;
+    width: 900px;
+    margin: 0 auto;
+   }
+
+.photo-size {
+    
+    width: 100%;
+}
+
+  
+
+  /* #content-portfolio {
+    overflow: auto; 
+    clear: both;    
+}*/
+   
+#content-portfolio h3 {
+
+    text-align: center;
+    background: #4aaaa5;
+    color   : #FFF;
+    padding: 20px;
+    position: relative;
+    top: -90px; 
+   
+}
+#trivia, #rutgers {
+
+    margin-left: 30px;
+}
+
+/* Footer */
+footer {
+
+    text-align: center; 
+   /* flex-shrink: 0;*/
+    background: #666666;
+    color: #ffffff;
+    /*border-top: 5px solid #63A8A4;*/
+    padding: 20px;
+    height: 20px;
+   /* margin-top: 350px; */
+    border-top: 8px solid #4aaaa5;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+   }
