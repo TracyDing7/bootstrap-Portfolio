@@ -22,48 +22,65 @@
             
                 <div id="name">Tracy Ding</div>
 
-                <nav>
-                    <a   href="index.html" >About</a>
-                    <a   href="portfolio.html" >Portfolio</a>
-                    <a   href="contact.html">Contact</a>
-                </nav>
+                <nav class="navbar ">
+                  <a  class="nav-link"  href="index.html">About</a>
+                  <a  class="nav-link" href="portfolio.html">Portfolio</a>
+                  <a  class="nav-link"  href="contact.html">Contact</a>
+              </nav>
+
 
             </div>
 
         </header>
 
 
-        <section id="contact">
+        <div id="bodyContent">
+          <section id="mainContent">  
 
             <h1>Contact</h1>
 
             <form>
-              
-                <div id="contact-name">
+                <div class="row">
+                <div class="col-12 contact-name">
                   <label for="name-contact">Name</label>
-                  <br>
+                </div>
+              </div>
+              <div class="row">
+                 <div class="col-12">
                   <input type="text" id="name-contact" name="user_name" class="mytext">
                 </div>
+              </div>
               
-                <div id="email">
+              <div class="row">
+                <div class="col-12 email">
                   <label for="mail">Email</label>
-                  <br>
+                </div>
+              </div>
+              <div class="row"> 
+                  <div class="col-12">
                   <input type="email" id="mail" name="user_email" class="mytext">
                 </div>
+              </div>
               
-                <div id="message">
+              <div class="row">
+                <div class="col-12 message">
                   <label for="msg">Message</label>
-                  <br>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
                   <textarea id="msg" name="user_message" class="mymsg"></textarea>
                 </div>
-               
-                <div class="button">
+              </div>
+                <div class="row">
+                <div class="col-12 button">
                   <button type="submit">Submit</button>
                 </div>
+              </div>
               </form>
 
         </section>
-
+    </div>
         <footer>
             Copyright &#169;
         </footer>

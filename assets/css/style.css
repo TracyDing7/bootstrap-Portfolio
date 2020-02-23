@@ -55,70 +55,71 @@ header {
      padding-right: 30px;
      padding-bottom: 30px;
  }
-
-#about {
+ #bodyContent {
+    width: 960px;
+    margin: 0 auto;
+}
+#mainContent {
 
     /*padding: 30px 30px 20px 30px;*/
     margin-top: 30px;
     width: 960px;
-   margin:0 auto;
+   margin:30px auto 0;
    background: none;
+   background-color:white;
+}
+#mainContent h1 {
+    color: #4aaaa5;
 }
 
-#contact {
-
-   /* padding: 30px 30px 20px 30px;*/
-    margin-top: 30px;
-    width: 960px;
-    margin:0 auto;
-}
 #contact-header{
      background-color: #4aaaa5;
 }
-#email {
+.contact-name {
+    margin-left :20px;
+}
+.email {
 
     margin-top: 20px;
-   
+    margin-left: 20px;
   }
   
-#message {
-    margin-top: 20px;
-    margin-bottom: 20px;
+.message {
+    margin-top: 20px;    
+    margin-left:20px;
 }
 .mytext {
     background-color: white;
+    margin-left:20px;
 }
 .mymsg {
     background-color: white;
+    margin-left:20px;
 }
 input {
    
     margin  : 0;
-    width   : 895px;
+   /* width   : 895px;*/
     height: 20px;    
-    
+    width: calc(100% - 20px);
   }
 
   textarea {
   
      padding : 0 10px;
      margin  : 0;
-     width   : 880px;
+     /*width   : 880px;*/
      height: 200px;
      background-color: white;
+     width: calc(100% - 20px);
    }
    button {
        text-align:center;        
        background-color: #4aaaa5;
+       margin-left:20px;
    }
 
-   #portfolio {
-
-   /* padding: 30px 30px 20px 30px;*/
-    margin-top: 30px;
-    width: 960px;
-    margin: 0 auto;
-   }
+ 
 
 .photo-size {
     
@@ -163,3 +164,28 @@ footer {
     bottom: 0;
     width: 100%;
    }
+
+  .nav-link {
+      margin:0;
+      padding:0;
+  }
+  .navbar{
+      margin-top:30px;
+  }
+  .nav-item {
+      margin:0;
+      padding:0;      
+  }
+  #about h1 {
+      color: #4aaaa5;      
+      margin-top:30px;
+  }
+  #portfolio h1 {
+      color:#4aaaa5;
+      margin-top:30px;
+
+  }
+  #contact h1 {
+      color:#4aaaa5;
+      margin-top:30px;
+  }

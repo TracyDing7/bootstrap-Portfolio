@@ -2,6 +2,11 @@
 <html lang="en-us">
     
     <head>
+        <meta charset="UTF-8">
+ 
+         
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
         <title>
             Week 1 Recommended Assignment: Basic Portfolio
         </title>
@@ -16,26 +21,35 @@
     <body>
 
         <header>
-          
+           
+           
             <div class="wrapper">
-            
+                
                 <div id="name">Tracy Ding</div>
-
-                <nav>
-                    <a   href="index.html">About</a>
-                    <a  href="portfolio.html">Portfolio</a>
-                    <a    href="contact.html">Contact</a>
+                
+                <nav class="navbar ">
+                 <div class="nav-item">
+                    <a  class="nav-link"  href="index.html">About</a>
+                </div>
+                <div class="nav-item">
+                    <a  class="nav-link" href="portfolio.html">Portfolio</a>
+                </div>
+                <div class="nav-item">
+                    <a  class="nav-link"  href="contact.html">Contact</a>
+                </div>
                 </nav>
 
             </div>
 
         </header>
-        <section id="about">
+        <div id="bodyContent">
+            
+        <section id="mainContent">
              
             <h1>About Me</h1>           
 
             <div class="row">
-              <div class="container">
+              <div class="col-9 container">
                 <img id="profile" src="assets/images/ding.png" alt="my profile picture" />
                 <p>WHO am I? I am Xiaoqin Ding. I go by Tracy.  </p>
 
@@ -46,6 +60,7 @@
             </div>
 
         </section>
+        </div>
         <footer>
             Copyright &#169;
         </footer>
