@@ -127,11 +127,6 @@ input {
 }
 
   
-
-  /* #content-portfolio {
-    overflow: auto; 
-    clear: both;    
-}*/
    
 #content-portfolio h3 {
 
@@ -143,10 +138,7 @@ input {
     top: -90px; 
    
 }
-#trivia, #rutgers {
 
-    margin-left: 30px;
-}
 
 /* Footer */
 footer {
